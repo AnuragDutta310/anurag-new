@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Anurag Dutta's portfolio: web development, problem-solving and design.">
+    <title>Anurag Dutta | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Figtree:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="portfolio-css.css">
+    <link rel="stylesheet" href="responsive-portfolio.css">
+</head>
+
+<body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <nav id="navbar" aria-label="Main">
+        <div id="logo-box">
+            <h4>Anurag Dutta</h4>
+        </div>
+        <ul>
+            <li class="option"><a href="#main">Home</a></li>
+            <li class="option"><a href="#section-about">About</a></li>
+            <li class="option"><a href="#skill">Skills</a></li>
+            <li class="option"><a href="#form">Message</a></li>
+        </ul>
+    </nav>
+
+    <header id="main">
+        <div class="hero-inner">
+            <p class="hero-kicker">Computer Science student and web developer</p>
+            <h1 class="heading">Crafting code, creating experiences.</h1>
+            <p class="hero-text">Hi, I'm Anurag. This portfolio was built with curiosity, determination, and an
+                impressive number of errors that taught me more than tutorials ever could.</p>
+            <div id="button-section">
+                <a class="social-btn" href="https://www.linkedin.com/in/anurag-dutta-b42503388/" target="_blank"
+                    rel="noopener">
+                    <img src="linkedin.png" alt="" height="22"> LinkedIn
+                </a>
+                <a class="social-btn" href="https://github.com/AnuragDutta310" target="_blank" rel="noopener">
+                    <img src="github.png" alt="" height="22"> GitHub
+                </a>
+                <a class="social-btn primary" href="#form">Send a message</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="section-about">
+        <h2>About me</h2>
+        <div id="about-section">
+            <div class="left">
+                <div class="photo-frame">
+                    <img src="portfolio-profile.jpg" alt="Portrait of Anurag Dutta">
+                </div>
+            </div>
+            <div class="right">
+                <p>I'm a Computer Science Engineering student with a strong interest in web development and
+                    problem-solving. I enjoy building clean, functional, user-focused digital experiences while
+                    continuously learning and improving my skills.</p>
+                <p>Alongside my studies, I've spent significant time strengthening my programming fundamentals through
+                    hands-on projects and problem-solving.</p>
+                <p>Outside of code, I enjoy drama, poetry writing, playing the tabla, and drawing. These interests sit
+                    entirely apart from programming, and they keep me balanced and curious.</p>
+                <ul class="interests" aria-label="Interests">
+                    <li>Drama</li>
+                    <li>Poetry</li>
+                    <li>Tabla</li>
+                    <li>Drawing</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="skill">
+        <h2>Skills and learning</h2>
+        <div id="skills">
+            <div class="skill-box">
+                <div class="grid"><h5>HTML</h5></div>
+                <div class="grid"><h5>CSS</h5></div>
+                <div class="grid"><h5>JavaScript</h5></div>
+                <div class="grid"><h5>Python</h5></div>
+                <div class="grid"><h5>C++</h5></div>
+                <div class="grid"><h5>Graphics Design</h5></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="form">
+        <h2>Message box</h2>
+        <p class="form-intro">Have a project, question or idea? Write to me below.</p>
+        <div class="form-box">
+            <form action="Contact" method="post">
+                <div class="fill-form">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" placeholder="Enter your name" autocomplete="name" required>
+                </div>
+                <div class="fill-form">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Enter your email" autocomplete="email"
+                        required>
+                </div>
+                <div class="fill-form">
+                    <label for="phone">Mobile number (optional)</label>
+                    <input type="tel" name="phone" id="phone" placeholder="Enter your mobile number"
+                        autocomplete="tel">
+                </div>
+                <div class="fill-form">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" rows="7" placeholder="Type your message" required
+                        minlength="5"></textarea>
+                </div>
+                <button type="submit" class="message-button">Send message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="ending">
+            <p>Thank you for taking the time to explore my portfolio.</p>
+            <p>&copy; 2026. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
